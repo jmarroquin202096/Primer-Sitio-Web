@@ -20,6 +20,19 @@ h2{
     color: #33FF00;
 }
 
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  text-align: left;
+  color: #33FFFF;
+}
+h4{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+  color: white;
+}
+
 /*Links*/
 #link ul li a{
     font-size: 20px;
