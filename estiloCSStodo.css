@@ -1,0 +1,214 @@
+/*Fondo*/
+body{
+    background-color: #1e1e1e; 
+    color: #00A1F9;
+    text-align: center;
+}
+
+/*Titulos*/
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    text-align: center;
+    color: #00A1F9;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+    color: #33FF00;
+}
+
+/*Links*/
+#link ul li a{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+    position: relative; left: -20px;
+} 
+
+
+/*Menu Desplegable*/
+#menu ul li{
+
+    background-color:#1e1e1e;
+    position:center;
+    float:left;
+    margin:0;
+    padding:0;
+  }
+
+  #menu ul a  {
+    display: block;
+    color: #FFFFFF;
+    text-decoration:none;
+    font-weight: 400px;
+    font-size: 30px;
+    padding: 25px;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+  }
+
+  #menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  
+  #menu ul li {
+    position:relative;
+    float: center;
+    margin:0;
+    padding:0;
+  }
+  
+  #menu ul li:hover {
+    background:#00A1F9;
+  }
+  
+  #menu ul ul {
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    padding:0;
+  }
+  
+  #menu ul ul li {
+    float:none;
+    width:386px
+  }
+  
+  #menu ul ul a {
+    line-height:120%;
+    padding: 30px 25px;
+  }
+  
+  #menu ul li:hover > ul {
+    display:block;
+  }
+ /*Tablas*/
+  #tabla{
+    display:inline-block;
+    width:100%;
+    margin-top:50px
+   }
+   
+   #tabla-col {
+    display:inline-block;
+    background-color: #00FFF6;
+    width:100%;
+    max-width:100px;
+    border-radius:10px;
+    margin-bottom:50px;
+    box-shadow: 0px 2px 5px #ddd
+   }
+   
+   #tabla-col {
+    width:32%;
+    float:left;
+    margin-right:2%
+    }
+   
+   #tabla-col-header {
+    background-color: #33FF00;
+    padding:20px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px
+   }
+   
+   #tabla-col-header h3 {
+    color: #00A1F9;
+    text-align:center;
+    font-size:30px;
+    font-weight:100;
+    margin-bottom:0
+   }
+   
+   #tabla-col-header p {
+    text-align:center;
+    color: white;
+    font-size:14px;
+    margin-bottom:0
+   }
+
+
+   contenedor{
+    width: 90%;
+    max-width:100px;
+    margin: auto;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tabla{
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    border:1px solid #00FFF6;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px #00FFF6;
+    padding: 45px;
+    text-align: center;
+    flex-grow: 1;
+    color: #00FFF6;
+}
+
+.tabla>h2{
+    font-size:30px;
+    margin-bottom:35px;
+}
+
+.tabla img{
+    width: 64px;
+    margin-bottom:35px;
+}
+
+.tabla > h3{
+    font-size:30px;
+    margin-bottom: 20px;
+}
+
+.tabla > p{
+    display: block;
+    margin-bottom:20px;
+}
+
+.tabla:hover{
+    background: #1e1e1e;
+    color: #f1f1f2;
+    transition: .5s all;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 250px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+}
+
+@media screen and (max-width:250px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+    }
+}
