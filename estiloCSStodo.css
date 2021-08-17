@@ -26,11 +26,19 @@ h3{
   text-align: left;
   color: #33FFFF;
 }
-h4{
+/*Parrafos*/
+p{
   font-family: 'Times New Roman', Times, serif;
   font-size: 15px;
-  text-align: left;
+  text-align: justify;
   color: white;
+}
+/*Foto Perfil*/
+#imagen{
+  display: inline-block;
+  margin: 0;
+  padding: 0;  
+  border-radius: 8px;
 }
 
 /*Links*/
